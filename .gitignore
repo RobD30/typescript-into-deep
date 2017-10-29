@@ -3,7 +3,7 @@ dist
 typings
 npm-debug*
 apikeys.js
-exercises/accounts
+#exercises/accounts
 exercises/autocomplete-2
 exercises/autocomplete-3
 exercises/autocomplete-4
