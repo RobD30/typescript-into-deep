@@ -19,3 +19,7 @@ export function rgbToHex(r: number, g: number, b: number): string {
         .map(hexCh => hexCh.length === 1? `0${hexCh}`: hexCh)
         .join('');
 }
+
+console.log(
+    rgbToHex(255,0,0)
+);
