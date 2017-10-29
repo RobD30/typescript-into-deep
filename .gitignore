@@ -4,5 +4,14 @@ typings
 npm-debug*
 tocopy*
 apikeys.js
-exercises
+exercises/accounts
+exercises/autocomplete-2
+exercises/autocomplete-3
+exercises/autocomplete-4
+exercises/autocomplete-sfc
+exercises/cashier
+#exercises/color-functions
+exercises/dealer
+exercises/fib
+exercises/stack
 .idea
