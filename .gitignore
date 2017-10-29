@@ -1,0 +1,8 @@
+node_modules
+dist
+typings
+npm-debug*
+tocopy*
+apikeys.js
+exercises
+.idea
