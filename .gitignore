@@ -2,7 +2,6 @@ node_modules
 dist
 typings
 npm-debug*
-tocopy*
 apikeys.js
 exercises/accounts
 exercises/autocomplete-2
