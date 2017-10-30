@@ -53,10 +53,11 @@ export class AccountManager {
    * @param user an active user who you're making an admin
    * @return the updated user object, now can also be regarded as an admin
    */
-  promoteToAdmin(existingAdmin: boolean, user: any) {
+  promoteToAdmin(existingAdmin: Admin, user: ConfimedUser) {
     if (!existingAdmin.adminSince) throw "Not an admin!";
     if (user.isActive !== true) throw "User must be active in order to be promoted to admin!";
-    user.adminSince = new Date();
-    return user;
+    let newAdmin = user as Admin;
+    newAdmin.adminSince = new Date();
+    return newAdmin;
   }
 }
